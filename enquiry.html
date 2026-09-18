@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Andrew Insights Group — B2B consulting, data analysis, business intelligence, market research and strategic insights.">
+  <title>Enquiry | Andrew Insights Group</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <p>B2B Consulting | Data. Insights. Better Decisions.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Andrew Insights Group logo" class="logo-img">Andrew Insights Group</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+      <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span class="bar"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-pill">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <header class="page-header">
+        <h1>Make an Enquiry</h1>
+        <p>Tell us about your business challenge and the support you are looking for.</p>
+      </header>
+
+      <section class="section">
+        <form class="form-card" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company Name:</label>
+            <input id="company" name="company" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input id="phone" name="phone" type="tel">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required:</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>---Select a service---</option>
+              <option>Data Analysis</option>
+              <option>Business Intelligence</option>
+              <option>Market Research</option>
+              <option>Strategic Insights</option>
+              <option>Business Strategy</option>
+              <option>Operational Support</option>
+              <option>Decision Support</option>
+              <option>Growth Enablement</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message / Business Challenge:</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success btn-block">Submit Enquiry</button>
+          <p class="form-note">fill in the details above to submit your enquiry</p>
+        </form>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <p class="logo" style="color:#ffffff;">Andrew Insights Group</p>
+          <p>Data. Insights. Better Decisions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul class="social-list">
+            <a class="icon-btn" href="https://www.instagram.com/andrewinsightsgroup/" aria-label="Instagram">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <rect x="2.5" y="2.5" width="19" height="19" rx="5"></rect>
+                <circle cx="12" cy="12" r="4.4"></circle>
+                <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"></circle>
+              </svg>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 Andrew Insights Group. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
